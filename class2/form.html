@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label>Name :</label>
+        <input type="text" placeholder="Enter your name" maxlength="50">
+
+        <label>Email :</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password :</label>
+        <input type="password" placeholder="Enter your password">
+
+        <label>Phone Number :</label>
+        <input type="number" placeholder="Enter your Number">
+
+        <label>No Of items</label>
+        <input type="number" min="1" max="20">   
+
+        <label>Date of Birth</label>
+        <input type="date" min="2024-01-01" max="2025-03-28">
+
+        <label>Favorite Foods</label>
+        <input type="checkbox">Briyani
+        <input type="checkbox">Pizza
+        <input type="checkbox">Burger
+        <input type="checkbox">Wings
+
+        <label>Upload your file</label>
+        <input type="file" accept=".png">
+        <!-- radio button with grouping -->
+        <h4>Gender</h4>
+        <label>Man</label>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio"name="gender">
+        <label>Trans</label>
+        <input type="radio"name="gender">
+<!-- 'dropdown' selct with options -->
+        <label>Which car do you want to buy</label>
+        <select>
+            <option>Select a car</option>
+            <option>BMW</option>
+            <option>Mercedes</option>
+            <option>Ferrari</option>
+            <option>Rolls</option>
+        </select>
+        <input type="color">
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

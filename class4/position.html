@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container{
+            border: 2px solid black;
+            height: 1500px;
+        }
+        img{
+            height: 350px;
+            width: 300px;
+        }
+        .image2{
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        .image3{
+            position: absolute;
+            left: 50px;
+            top:40px
+        }
+        .image4{
+            position: sticky;
+            top: 20px;
+        }
+
+        .container1{
+            height: 1500px;
+            background-color: blueviolet;
+            border: 3px solid gold;
+        }
+        .Sticky-Header{
+            background-color: #333;
+            padding: 10px;
+            font-size: 20px;
+            top: 10px;
+            position:sticky;            
+        }
+        .filler-content{
+            height: 1500px;
+            background-color: #f1f1f1;
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image1"src="./poster1.jpeg" alt="dummy">
+        <img class="image2"src="./poster2.jpeg"alt="dummy">
+        <img class="image3"src="./poster3.jpeg"alt="dummy">
+        <img class="image4"src="./poster4.jpeg"alt="dummy">
+    </div>
+    <div class="container1">
+        <h2 class="Sticky-Header">I'm a Sticky Header</h2>
+        <p class="filler-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, exercitationem.</p>
+    </div>
+</body>
+</html>
